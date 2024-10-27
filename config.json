@@ -1,0 +1,9 @@
+{
+    "intervalSeconds": 5,
+    "mostrarCPU": false,
+    "mostrarMemoria": true,
+    "mostrarTiempoSistema": true,
+    "mostrarTiempoNode": true
+}
+  
+  
