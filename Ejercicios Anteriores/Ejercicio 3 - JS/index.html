@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Contraseñas</title>
+</head>
+<body>
+    <h1>Generador de Contraseñas</h1>
+    <form id="passwordForm">
+        <label for="numPalabras">Número de palabras (1-10):</label>
+        <input type="number" id="numPalabras" min="1" max="10" value="4">
+        <br><br>
+
+        <input type="checkbox" id="capitalizar" checked>
+        <label for="capitalizar">Comenzar cada palabra en mayúsculas</label>
+        <br><br>
+
+        <input type="checkbox" id="sinRepetir" checked>
+        <label for="sinRepetir">No repetir palabras</label>
+        <br><br>
+
+        <button type="button" onclick="generarContraseña()">Generar Contraseña</button>
+    </form>
+    
+    <h2>Contraseña Generada:</h2>
+    <p id="outputContraseña"></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

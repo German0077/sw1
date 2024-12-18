@@ -1,0 +1,133 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Estilo para la cabecera */
+header {
+    background-color: #FFCC00;
+    color: #3B4A8B;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Menú lateral */
+.sidebar {
+    background-color: #3B4A8B;
+    width: 200px;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    height: 100%;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin: 20px 0;
+}
+
+.sidebar nav ul li a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: background 0.3s;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #FFCC00;
+    color: #3B4A8B;
+}
+
+/* Estilo del contenido principal */
+.content {
+    margin-left: 220px;
+    padding: 20px;
+    padding-top: 80px;
+}
+
+/* Estilos para las secciones */
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para encabezados y párrafos */
+h2 {
+    color: #3B4A8B;
+    border-bottom: 2px solid #FFCC00;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Estilos para los Pokémon */
+.pokemon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.pokemon:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al pasar el ratón */
+}
+
+.pokemon img {
+    margin-right: 20px;
+    width: 100px; /* Tamaño de la imagen */
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Estilo de enlaces de la barra lateral */
+.content a {
+    color: #3B4A8B;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.content a:hover {
+    color: #FFCC00;
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #FFCC00;
+    color: #f2f2f2;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+    font-size: 0.9em;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Letra en negrita */
+.sidebar nav ul li a:hover, footer p {
+    font-weight: bold;
+}

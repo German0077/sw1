@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cocina Casera Fácil</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Cocina Casera Fácil</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Recetas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Categorías</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carrusel -->
+  <div id="carouselExampleCaptions" class="carousel slide mt-4" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://via.placeholder.com/1200x400?text=Plato+1" class="d-block w-100" alt="Paella">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Nombre de la receta 1</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://via.placeholder.com/1200x400?text=Plato+2" class="d-block w-100" alt="Ensalada">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Nombre de la receta 2</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://via.placeholder.com/1200x400?text=Plato+3" class="d-block w-100" alt="Postre">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Nombre de la receta 3</h5>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+  <!-- Sección de Tarjetas -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">Recetas Destacadas</h2>
+    <div class="row">
+      <div class="col-md-4 d-flex">
+        <div class="card w-100">
+          <img src="https://th.bing.com/th/id/OIP.BLDKCVMZZK66Ugoap5N_TgHaE8?rs=1&pid=ImgDetMain" class="card-img-top" alt="Pasta Carbonara" style="height: 200px; object-fit: cover;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Pasta Carbonara</h5>
+            <p class="card-text">La receta clásica italiana de forma rápida y sencilla.</p>
+            <a href="#" class="btn btn-primary mt-auto">Ver receta</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex">
+        <div class="card w-100">
+          <img src="https://i.ytimg.com/vi/Qo9S0Fnla2k/maxresdefault.jpg" class="card-img-top" alt="Tacos de Carne" style="height: 200px; object-fit: cover;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Rabas de calamar</h5>
+            <p class="card-text">Un buen entrante para compartir.</p>
+            <a href="#" class="btn btn-primary mt-auto">Ver receta</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex">
+        <div class="card w-100">
+          <img src="https://th.bing.com/th/id/OIP.EWaBHksPWwIIHrS_6LGQhgHaE8?rs=1&pid=ImgDetMain" class="card-img-top" alt="Brownies de Chocolate" style="height: 200px; object-fit: cover;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Brownies de Chocolate</h5>
+            <p class="card-text">El postre perfecto para terminar con dulce.</p>
+            <a href="#" class="btn btn-primary mt-auto">Ver receta</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+  
+
+  <!-- Formulario -->
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Contacta con Nosotros</h2>
+    <form>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="mb-3">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+          </div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="recipe" class="form-label">Dudas o Recomendaciones</label>
+        <textarea class="form-control" id="recipe" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+
+<!-- Footer --> 
+<footer class="bg-dark text-light py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Acerca de Nosotros</h5>
+          <p>Somos una comunidad apasionada por la cocina que comparte recetas sencillas, pero deliciosas, para que puedas hacer en casa.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Categorías Populares</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-light">Recetas Italianas</a></li>
+            <li><a href="#" class="text-light">Comida Mexicana</a></li>
+            <li><a href="#" class="text-light">Postres</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Redes Sociales</h5>
+          <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i> Facebook</a>
+          <a href="#" class="text-light"><i class="bi bi-instagram"></i> Instagram</a>
+        </div>
+      </div>
+      <hr class="my-4" style="border-top: 1px solid #fff;">
+      <div class="text-center">
+        <p>&copy; 2024 Web con Bootstrap - Hecho por Germán Fábregas</p>
+      </div>
+    </div>
+  </footer>
+  
+
+  <!-- Scripts de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+

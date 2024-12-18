@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo jQuery</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <h1>Bienvenido a mi página</h1>
+
+    <!-- Contenido principal -->
+    <div id="contenido-principal">
+        <p>Este es un texto de ejemplo. Registra un usuario haciendo clic en el botón de abajo.</p>
+        <button id="btn-registrar" class="btn-primario">Registrar Usuario</button>
+    </div>
+
+    <!-- Formulario de registro -->
+    <div id="formulario-registro">
+        <h2>Formulario de Registro</h2>
+        <div class="formulario">
+            <label for="nombre">Nombre y Apellidos:</label>
+            <input type="text" id="nombre" placeholder="Introduce tu nombre completo">
+        </div>
+        <div class="formulario">
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" placeholder="Introduce tu correo electrónico">
+        </div>
+        <div class="formulario">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" placeholder="Introduce tu número de teléfono">
+        </div>
+        <div class="formulario">
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" placeholder="Introduce una contraseña">
+        </div>
+        <button id="btn-enviar" class="btn-primario">Enviar</button>
+        <button id="btn-cancelar" class="btn-secundario">Cancelar</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

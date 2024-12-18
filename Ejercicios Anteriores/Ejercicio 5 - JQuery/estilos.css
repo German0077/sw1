@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#contenido-principal {
+    padding: 20px;
+    background-color: #c4bbbb;
+    margin: 20px 0;
+}
+
+#formulario-registro {
+    display: none;
+    padding: 20px;
+    background-color: #8fd4ff;
+}
+
+.formulario {
+    margin-bottom: 15px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn-primario {
+    background-color: #009005;
+    color: white;
+    border: none;
+}
+
+.btn-secundario {
+    background-color: #ff483a;
+    color: white;
+    border: none;
+}
