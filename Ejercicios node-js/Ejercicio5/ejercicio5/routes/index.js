@@ -34,6 +34,10 @@ router.get('/restricted', (req, res) => {
   }
 });
 
+router.get('/prueba', (req, res) => {
+  res.render('prueba');
+});
+
 module.exports = router;
 
 
